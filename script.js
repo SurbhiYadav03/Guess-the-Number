@@ -1,4 +1,4 @@
-const number = 10;
+const number = parseInt(Math.random() * 100 + 1);
 const submitBtn = document.querySelector('#bt');
 const userNum = document.querySelector('#num');
 const arr = document.querySelector('#arr');
